@@ -1,10 +1,7 @@
 const livros = require('./database')
 const [{id, nome, autor, categoria, paginas, recomenda, leu}] = livros
-//console.log(livros)
 
-//pegar o input 
 const readline = require('readline-sync')
-console.log("testeeeeeeeeeeeeeee")
 
 const entradaInicial = readline.question('Deseja buscar um livro? S/N')
 
